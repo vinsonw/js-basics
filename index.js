@@ -40,42 +40,115 @@
 // Object
 // let name_ = 'Mosh';
 // let age = 30;
-let person = {
-    name: 'Mosh',
-    age: 30
-};
+// let person = {
+//     name: 'Mosh',
+//     age: 30
+// };
 
 // Dot notation
-person.name = 'John';
+// person.name = 'John';
 
 // Bracket Notation
-let selection = 'name';
-person[selection] = 'Mary';
+// let selection = 'name';
+// person[selection] = 'Mary';
 
-console.log(person);
+// console.log(person);
 
 
 // Array
-let selectedColors = ['red', 'blue'];
+// let selectedColors = ['red', 'blue'];
 // selectedColors[2] = 'green';
-selectedColors[2] = 1;
-console.log(selectedColors.length);
+// selectedColors[2] = 1;
+// console.log(selectedColors.length);
 
 
 // Functions
 
 // type1: Performing a test
-function greet(name, lastName) {
-    console.log('Hello '+ name + ' ' + lastName);
-}
+// function greet(name, lastName) {
+    // console.log('Hello '+ name + ' ' + lastName);
+// }
 
-greet('John', 'Smith');
+// greet('John', 'Smith');
 
 
 // type2: Calculating a value
-function square(number) {
-    return number * number;
-}
+// function square(number) {
+//     return number * number;
+// }
 
-console.log(square(2))
+// console.log(square(2))
 
+// Operators
+
+// Arithmatic Operators
+// let x = 10;
+// let y = 3;
+
+// console.log(x + y);
+// console.log(x - y);
+// console.log(x * y);
+// console.log(x / y);
+// console.log(x % y);
+// console.log(x ** y);
+
+// Increment and Decrement
+// Increment (++)
+// console.log(++x);
+// console.log(x++);
+// console.log(x);
+
+// Decrement (--)
+// console.log(--x);
+
+// Assinment Operator
+// let x =10;
+// x++;
+// x = x + 1;
+
+// x = x + 5;
+// x += 5;
+
+// x = x * 3;
+// x *= 3;
+
+// Comparison Operator
+
+// let x = 1;
+// console.log(x > 0);
+// console.log(x >= 1);
+// console.log(x < 1);
+// console.log(x <= 1);
+
+// Strict Equality Operator(check type)
+// console.log(1 === 1); //true
+// console.log('1' === 1); //false
+
+// Loose equality Operator(convert type)
+// console.log(1 == 1); // true
+// console.log('1' == 1); //true
+
+// Ternary (conditional) Operator
+// if a customer has more than 100 points,
+// they are a 'gold' customer, 
+// otherwise they are a 'silver' customer
+
+// let points = 90;
+// let type = points > 100 ? 'gold' : 'silver';
+// console.log(type);
+
+// Logical AND (&&)
+// Returns TRUE if both operands are TRUE
+console.log(false && true)
+
+let highIncome = true;
+let gooodCreditScore = true;
+
+// Logical AND (&&)
+// let eligibleForLoan = highIncome && gooodCreditScore
+// Logical OR (||)
+let eligibleForLoan = highIncome || gooodCreditScore
+// logical NOT (!)
+let approvedRefused = !eligibleForLoan
+console.log('Eliginble for loan:', eligibleForLoan)
+console.log('Approved Refused:', approvedRefused)
