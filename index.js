@@ -153,3 +153,27 @@
 // console.log('Eliginble for loan:', eligibleForLoan)
 // console.log('Approved Refused:', approvedRefused)
 
+// Bitwise Operators
+// 
+// Don't worry about it!
+
+// Operator Precedence
+// use parentheses please.
+
+// let a = 'read';
+// let b = 'blue';
+
+// console.log(a);
+// console.log(b);
+
+// Control Flow(1h25m)
+// let hour = 10;
+
+// if (hour >= 6 && hour < 12) {
+//     console.log("Good Morning.");
+// }
+// else if (hour >= 12 && hour < 18) {
+//     console.log("Good afternoon");
+// }
+// else
+//  console.log('Good evening');
