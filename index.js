@@ -139,16 +139,17 @@
 
 // Logical AND (&&)
 // Returns TRUE if both operands are TRUE
-console.log(false && true)
+// console.log(false && true)
 
-let highIncome = true;
-let gooodCreditScore = true;
+// let highIncome = true;
+// let gooodCreditScore = true;
 
 // Logical AND (&&)
 // let eligibleForLoan = highIncome && gooodCreditScore
 // Logical OR (||)
-let eligibleForLoan = highIncome || gooodCreditScore
+// let eligibleForLoan = highIncome || gooodCreditScore
 // logical NOT (!)
-let approvedRefused = !eligibleForLoan
-console.log('Eliginble for loan:', eligibleForLoan)
-console.log('Approved Refused:', approvedRefused)
+// let approvedRefused = !eligibleForLoan
+// console.log('Eliginble for loan:', eligibleForLoan)
+// console.log('Approved Refused:', approvedRefused)
+
